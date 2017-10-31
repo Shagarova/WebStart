@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Bold.otf');
+    src: url('MyriadPro-Regular.otf');
+         
+}
+
+body{
+	font-family: "PTSans";
+	position:absolute;
+	width:800px;
+	height:100%;
+	left:500px;
+	border:0px solid #6E6E6E;
+
+}
+.name{
+	margin-top: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 36px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.photo{
+	text-align: center;
+
+}
+img{
+	width:200px;
+	 height:220px;
+	 border:1px solid black;
+	 border-radius: 5px;
+	 
+}
+.info{
+	padding-left: 20px;
+	margin-top: 40px;
+	font-size: 14px;
+}
+.info1{
+	padding-left: 40px;
+	padding-top:15px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	font-weight: normal;
+	color:#6E6E6E;
+}
+.info2{
+	
+	font-family:"Myriad Pro";
+	font-size:18px;
+	font-weight:bold;
+}
+.info3{
+	
+	font-family: "Arial";
+	font-size:14px;
+	font-weight:normal;
+	color:#6E6E6E;
+}
