@@ -1,10 +1,16 @@
 @font-face {
     font-family: 'Myriad Pro';
-    src: url('MyriadPro-Bold.otf');
     src: url('MyriadPro-Regular.otf');
-         
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+     
 }
-
 body{
 	font-family: "PTSans";
 	position:absolute;
