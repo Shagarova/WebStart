@@ -1,0 +1,138 @@
+a, a:active, a:visited, a:focus{
+	color:#000000;
+	text-decoration:none;
+}
+body{
+	background-color: #f9f9f9;
+	font-family: "Open Sans"; 
+	font-style: normal;
+
+}
+.header .logo-wrapper{
+	height:130px;
+	line-height: 130px;
+}
+.container{
+	width: 966px;
+	margin: 0 auto;
+	background-color:#fff;
+}
+nav, .menu--header{
+	height: 40px;
+	width: 100%
+}
+.menu--header{
+	background-color: #515151;
+	font-size:15px;
+}
+.menu--header_item{
+	display: block;
+	float:left;
+	height: 40px;
+	margin-right: 30px;
+}
+.menu--header_item:after{
+	display: block;
+	content:'';
+	clear:both;
+}
+.menu--header_item a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding:0 15px;
+	color:#ffffff;
+}
+.menu--header_item a:hover{
+	background-color: #393939;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+}
+aside{
+	width:240px;
+	float:left;
+	font-size:13px;
+}
+section:after{
+	display: block;
+	content:'';
+	clear:both;
+}
+.sidebar, .sidebar_item, .sidebar_item_link{
+	width:100%;
+	box-sizing: border-box;
+}
+.sidebar_item_link{
+	display:block;
+	color:#656363;
+	border: 1px solid #c8c8c8;
+	height:40px;
+	line-height: 40px;
+	padding-left:24px;
+}
+.sidebar_item:first-child{
+	margin-top:40px;
+}
+
+.sidebar_item_link:hover{
+	
+	background-color: #f9f9f9;
+	color:#575757;
+	padding-left: 35px;
+	
+}
+
+.content{
+	margin-left: 48px;
+	width: 678px;
+	float:left;
+	font-size:13px;
+}
+.image-wrapper{
+	box-sizing: border-box;
+	margin-top: 40px;
+	width:100%;
+	height:400px;
+	border: 1px solid #c8c8c8;
+
+}
+.image-wrapper img{
+	padding:55px 95px;
+}
+
+.text-wrapper{
+	width:100%;
+	height:140px;
+	margin-top: 40px;
+	padding:0 24px;
+	box-sizing: border-box;
+}
+
+.menu--footer{
+	width:100%;
+	height:40px;
+background-color:#e1e1e1;
+}
+.menu--footer_item:after{
+	display: block;
+	content:'';
+	clear:both;
+}
+.menu--footer_item{
+	font-size:13px;
+	display: block;
+	float:left;
+	height: 40px;
+	margin-right: 30px;
+}
+
+.menu--footer_item a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding:0 15px;
+	color:#515151;
+}
+.menu--footer_item a:hover{
+	text-decoration: underline;
+}
