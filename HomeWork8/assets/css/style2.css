@@ -167,17 +167,16 @@ font-weight: 500;
 	4px 4px 2px 0px rgba(209, 209, 209, 0.8),
 	5px 5px 2px 0px rgba(232, 232, 232, 0.8),
 	6px 6px 2px 0px rgba(248, 248, 248, 0.8);
+
 }
-}
-/*.main-menu ul{
+.main-menu ul{
 display:inline-block;
-	}*/
+	}
 .main-menu ul:first-child{
 	margin-left:126px;
 	height: 34px;
 	width: 530px;
 	font-size:14px;
-	float:left;
 		
 }
 .main-menu ul:first-child li{
@@ -193,6 +192,7 @@ display:inline-block;
 	background-image:linear-gradient(to bottom, #25617b, #0c3357);
 	border-radius: 40%;
 	height:26px;
+/*padding:8px 18px 8px 20px;*/
 }
 
 .main-menu ul:last-child{
