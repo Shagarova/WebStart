@@ -8,12 +8,17 @@ body{
 	font-style: normal;
 
 }
+section{
+	box-sizing: border-box;
+	padding-left:24px;
+	padding-right: 24px;
+}
 .header .logo-wrapper{
 	height:130px;
 	line-height: 130px;
 }
 .container{
-	width: 966px;
+	width: 1160px;
 	margin: 0 auto;
 	background-color:#fff;
 }
@@ -107,7 +112,9 @@ section:after{
 	padding:0 24px;
 	box-sizing: border-box;
 }
-
+footer{
+	clear:both;
+}
 .menu--footer{
 	width:100%;
 	height:40px;

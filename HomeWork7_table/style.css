@@ -1,0 +1,34 @@
+table{
+	border-collapse: collapse;
+	width: 320px;
+}
+tr{
+	height:40px;
+	
+	border: 4px solid black;
+}
+td{
+	height: 40px;
+	width: 40px;
+	border: 4px solid black;
+}
+tr.odd {
+   height:15px;
+   
+	border: 4px solid black;
+   }
+   td.odd{
+	height: 15px;
+	width: 40px;
+	border: 4px solid black;
+}
+tr.min {
+   height:30px;
+   
+	border: 4px solid black;
+   }
+   td.min{
+	height: 	30px;
+	width: 40px;
+	border: 4px solid black;
+}

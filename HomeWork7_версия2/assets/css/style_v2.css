@@ -1,0 +1,195 @@
+html{
+	background: url("../image/bg.jpg") no-repeat center 36px;
+}
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:1062px;
+	border:1px solid black;
+}
+header{
+	width:100%;
+	height: 36px;
+	background-color: #085697;
+}
+header ul{
+	position: relative;
+	float:right;
+}
+header ul:first-child li{
+	position: relative;
+	box-sizing: border-box;
+	height: 36px;
+	line-height: 16px;
+	float:left;
+	font-family: "Tahoma" normal;
+	font-size: 14pt;
+	color:#fff;
+	padding:10px;
+	border-left:1px solid #56a2dc;
+}
+header ul:first-child li:first-child{
+	width:170px;
+}
+header ul:first-child  li:hover{
+	background-image:linear-gradient(to bottom, #51b1dc, #2e7ac4) ;
+	color:#fff;
+}
+
+/*флаг - не подключается*/
+header ul:first-child li:first-child:before {
+	position: absolute;
+	content: '';
+	width: 21px;
+	height: 23px;
+	background: url('../image/flag.png');
+	color: #fff;
+	left: 6px;
+	top: 6.5px;
+}
+header ul:nth-child(2) li{
+	box-sizing: border-box;
+	height: 36px;
+	line-height: 16px;
+	float:left;
+	font-family: "Tahoma" normal;
+	font-size: 14pt;
+	color:#53a3db;
+	padding:10px;
+}
+header ul:nth-child(2) li:hover{
+	background-image:linear-gradient(to bottom, #51b1dc, #2e7ac4);
+	color:#fff;
+}
+header ul:first-child:before {
+	position: absolute;
+	left: 0;
+	content: '';
+	height: 32px;
+	margin-top: 2px;
+	border-left: 1px solid #56a2dc;
+}
+.main{
+	box-sizing: border-box;
+	margin:auto;
+	
+}
+
+form {
+
+	margin:0 auto;
+	margin-top:214px;
+	box-sizing: border-box;
+	width: 560px;
+	height: 615px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px #cccccc;
+}
+.caption{
+	box-sizing: border-box;
+	width: 100%;
+	height:62px;
+	color:#fff;
+	font-size: 30px;
+	border-bottom: 2px solid #fff;
+	text-align: center;
+	padding: 15px 0px;
+}
+.registration{
+	width:300px;
+	margin: 0 auto;
+	padding:20px;
+}
+input{
+	margin-top: 20px;
+	border:none;
+	box-shadow: 0px 2px 0 0 #4a4a49;
+}
+
+fieldset {
+	margin-bottom: 5px;
+	padding: 10px;
+	border-top: 1px solid #666666;
+}
+
+fieldset legend {
+	margin-top: 20px;
+	color: #6a6d68;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	color:#fff;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] 
+{
+	width: 277px;
+	height: 35px;
+	box-sizing: border-box;
+	padding: 2px 15px;
+	background: #0f0f0f;
+	color:#fff;
+}
+
+#Facebook,
+#LogIn{ 
+	display: inline-block;
+	height: 36px;
+	color: #ffffff;
+	background-image:linear-gradient(to bottom, #3e5696, #314172);
+	border:none;
+}
+#Facebook{ 
+	width: 38px;
+	padding: 3px 3px;
+	border-radius: 5px 0px 0px 5px;
+	margin-right: 0px;
+	font-size: 15px;
+}
+#LogIn{ 
+	width: 235px;
+	padding: 6px 15px;
+	border-radius: 0px 5px 5px 0px;
+	margin-left: 0px;
+}
+
+#Create{
+	display: inline-block;
+	width: 150px;
+	height: 36px;
+	padding: 6px 15px;
+	color: #ffffff;
+	background-image:linear-gradient(to bottom, #50aedb, #2e7ac4);
+	border:none;
+	border-radius: 5px;
+	margin-left:50px;
+}
+
+
+#checkbox
+{
+	width: 15px;
+	height: 15px;
+	padding: 2px 5px;
+	border: 1px solid #cccccc;
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus{
+	box-shadow: 0 0 15px 0 #4885ab;
+	background: #1b5288;
+	color: #cccccc;
+}
+
+p{
+	text-align: center;
+	margin-top:20px;
+	color:#fff;
+	font-size: 12px;
+}

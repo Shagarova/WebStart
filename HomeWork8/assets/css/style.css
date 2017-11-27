@@ -1,0 +1,211 @@
+body{
+	width: 999px;
+	height: 1310px;
+	margin:0 auto;
+}
+section{
+	display: block;
+	width: 910px;
+	height: 100%;
+	box-sizing: border-box;
+	margin:0 auto;
+}
+header{
+	position: relative;
+	width: 100%;
+	height:54px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+header div{
+	 display: inline-block;
+}
+.phone{
+	position: absolute;
+	left:13px;
+	top:21px;
+	width: 310px;
+	height: 100%;
+}
+.phone span{
+	
+	font-size: 19px;
+	font-family: "Arial";
+	font-weight: normal;
+}
+.registration{
+	position: absolute;
+	top:18px;
+	left: 315px;
+	height: 25px;
+	width: 494px;
+	box-sizing: border-box;
+	box-shadow: -1px -1px 1px 0px #d0d3d4,
+	1px 3px 2px 0px rgba(130, 148, 156, 0.3);
+	background-image:linear-gradient(to bottom,#1f6787,#0c3357);
+	border-radius: 3px;
+}
+.registration input{
+	position: relative;
+	width:111px;
+	height:14px;
+	border:none;
+	box-sizing: border-box;
+	margin-left: 10px;
+	margin-bottom:5px;
+	font-size: 11px;
+	padding-left:4px;
+	box-shadow: 0px 0px 2px 1px #d0d3d4,
+	0px 0px 2px 1px rgba(130, 148, 156, 0.5);
+}
+.registration img{
+	position:absolute;
+	padding:3px 5px;
+	float:left;
+}
+/*.registration input:first-child:before {
+	position: absolute;
+	content: '';
+	width: 21px;
+	height: 23px;
+	background: url('../image/chuvak.png');
+	color: #fff;
+	left: 3px;
+	top: 3px;
+}*/
+
+.registration input:nth-child(1){
+	position: absolute;
+	left:60px;
+/*margin-left: 30px;*/
+}
+.registration input:nth-child(2){
+	/*margin-left: 0px;*/
+	position: absolute;
+	left:200px;
+}
+.registration span{
+	color:#fff;
+	font-family:"Lusida Sans Unicode";
+	font-size:10pt;
+}
+.registration span a{
+	text-decoration: none;
+	font-family:"Lusida Sans Unicode";
+	font-size:10pt;
+	color:#fff;
+}
+.registration span:first-child a{
+	position: absolute;
+right:50px;
+top:6px;
+	}
+.registration span:last-child a{
+color:#bfbfbf;
+text-decoration: underline;
+position: absolute;
+right:15px;
+top:6px;
+}
+.pics{
+	position: absolute;
+	/*float:right;*/
+	height: 22px;
+	width: 77px;
+	right:6px;
+	top:19px;
+	/*margin: 15px 0px;*/
+	box-sizing: border-box;
+	border: 1px solid #c3c9cc;
+	border-radius: 40px;
+}
+.pics img{
+	margin-left: 5px;
+}
+.header::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.pic{
+	width: 100%;
+	height: 237px;
+}
+.main-menu{
+	width: 100%;
+	height: 34px;
+	margin-top: 6px;
+	background-image: linear-gradient(to bottom, #4d5663, #0a1030);
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: -1px -1px 1px 0px #d0d3d4,
+	1px 3px 2px 0px rgba(130, 148, 156, 0.3);
+}
+.main-menu{
+display:inline-block;
+	}
+.main-menu ul:first-child{
+	margin-left:100px;
+	height: 34px;
+	width: 530px;
+	border:1px solid black;
+}
+.main-menu ul:first-child li{
+	display: inline-block;
+	padding:4px 10px 4px 10px;
+}
+
+.main-menu ul:first-child li a{
+	color:#fff;
+	text-decoration: none;
+}
+.main-menu ul:first-child li:hover{
+	background-image:linear-gradient(to bottom, #25617b, #0c3357);
+	border-radius: 40%;
+	height:26px;
+/*padding:8px 18px 8px 20px;*/
+}
+
+.main-menu ul:last-child{
+	float:right;
+}
+.main-menu ul:last-child li{
+	display: inline-block;
+}
+.main-menu ul:last-child li:nth-child(2),
+.main-menu ul:last-child li:nth-child(4){
+	color:#8a9296;
+}
+.main-menu ul:last-child li:nth-child(3),
+.main-menu ul:last-child li:nth-child(5){
+	color:#0d5a8f;
+}
+
+.search{
+	display: inline-block;
+	width: 912px;
+	height:136px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+.auto{
+	width: 418px;
+	height: 136px;
+	box-sizing: border-box;
+	border: 1px solid #c5c5c5;
+	border-radius:10px;
+}
+.shini{
+	width: 194px;
+	height: 136px;
+	box-sizing: border-box;
+	border: 1px solid #c5c5c5;
+	border-radius:10px;
+}
+.diski{
+	width: 267px;
+	height: 136px;
+	box-sizing: border-box;
+	border: 1px solid #c5c5c5;
+	border-radius:10px;
+}
